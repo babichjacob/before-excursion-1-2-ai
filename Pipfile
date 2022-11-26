@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = "*"
+ipython = "*"
+numpy = "*"
+jupyter = "*"
+sklearn = "*"
+pandas = "*"
+matplotlib = "*"
+pillow = "*"
+opencv-python = "==4.5.5.64"
+opencv-python-headless = "==4.5.5.64"
+
+[dev-packages]
+black = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
